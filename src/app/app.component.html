@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+                
+
+<div class="container">
+<div class="heading">
+  <h1 style="font-size: 2.5rem;">URL-SHORTNER</h1>
+</div>
+<div class="process">
+  <div class="input">
+<input type="text" placeholder="paste your url" #input><button (click)="shortenUrl(input.value)" ><i class="bi bi-check-lg"></i></button>
+</div></div>
+<div class="op" *ngIf="output">
+  <div class="heading">
+    <h1>Copy your shorten link</h1>
+  </div>
+<div class="output" >
+  
+<input type="text" [value]="outputText" readonly>
+<button (click)="copyToClipboard()"><i class="bi bi-clipboard-check"></i></button></div></div>
+
+
+
+</div>

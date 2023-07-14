@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+   
+
+  }
+
+.container{
+
+    height: 100vh;
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+margin-top: 0;
+padding: 3rem;
+
+                                                
+}
+
+.heading{
+    justify-content: center;
+align-items: center;
+display: flex;
+font-family: monospace;
+padding-top: 40px;
+color: #eee;
+}
+.process{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    width: 26rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    overflow: hidden;
+    border: inset 2px grey;
+
+}
+
+::placeholder{
+    color: #eee;
+}
+ input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63,76,119,1);
+    color: #eee;
+    border: none;
+    padding-left: 25px;
+
+}
+ button{
+ border: none;
+ padding: 16px;
+    font-size: 1rem;
+    color: #eee;
+    background-color: rgb(53, 65, 101);
+    border-left: solid 1px grey;
+}
+button:hover{
+    background-color: rgb(68, 83, 128);
+  
+}
+.op{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.output{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    width: 26rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    overflow: hidden;
+    border: inset 2px grey;
+}
+
